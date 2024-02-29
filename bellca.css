@@ -2,18 +2,24 @@
     --font:  12px;
     --padding: 6px 10px; 
   }
-  .good {
-    font-size: 30px
-  }
+ #home{
+  font-size: 30px;
+ }
+ #jank{
+  padding-top:16px ;
+ }
   
   .navbar {
       overflow: hidden;
       background-color: rgba(000, 000, 000);
       font-family: Arial, Helvetica, sans-serif;
     }
+    
+    
     .navbar1 {
+      
       overflow: hidden;
-      background-color:rgba(0, 84, 154, 255);
+      background-color:rgba(0, 84, 154, 1);
       font-family: Arial, Helvetica, sans-serif;
     }
     
@@ -38,6 +44,14 @@
       float: right;
       background-color: #000000;
       color: white;
+    }
+    .navbar1 a.split{
+      float: right;
+      font-size: var(--font);
+      color: white;
+      text-align: center;
+      padding: var(--padding);
+      text-decoration: none;
     }
     
     
